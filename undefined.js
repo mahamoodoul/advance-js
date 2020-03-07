@@ -19,3 +19,4 @@ let fun=undefined;
 console.log(fun);
 
 let age=[10,11,12];
+console.log(age[10]);
