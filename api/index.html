@@ -9,7 +9,7 @@
     <p>JSON</p>
     <h2>Javascript Object Notation</h2>
     <ul id="users-container">
-
+      
     </ul>
 
     <script>
@@ -38,7 +38,7 @@
             function displayUser(user){
                 // console.log("Users:",user);
 
-                const userNames=user.map(us=>us.name);
+                const userNames=user.map(us=>us.name); //using map get only userName
                 const ul =document.getElementById("users-container")
 
                 for(let i = 0; i < userNames.length; i++){
